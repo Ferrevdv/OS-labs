@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Simple test",
+      "setup": "sudo apt install gcc-riscv64-unknown-elf qemu-system-misc",
+      "run": "make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
